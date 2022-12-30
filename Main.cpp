@@ -689,7 +689,7 @@ wWinMain(_In_     HINSTANCE hInstance,
 	{
 		wchar_t *title = new wchar_t[10];
 		swprintf_s(title, 10, L"Error %d", err.code);
-		MessageBox(NULL, err.message, title, MB_OK);
+//		MessageBox(NULL, err.message, title, MB_OK);
 		delete[] title;
 	}
 
